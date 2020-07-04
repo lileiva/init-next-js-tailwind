@@ -3,10 +3,11 @@
   "author": "lileiva",
   "scripts": {
     "dev": "next",
-    "start": "next start",
-    "build": "next build"
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.4",
     "dayjs": "^1.8.29",
     "next": "^9.4.4",
     "prop-types": "^15.7.2",
@@ -16,6 +17,8 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.6",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.2.0",
